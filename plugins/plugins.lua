@@ -22,7 +22,7 @@ local function plugin_exists( name )
 end
 
 local function list_all_plugins(only_enabled)
-  local tmp = check_markdown('\n\n@permag')
+  local tmp = check_markdown('\n\@owner_teleseed')
   local text = ''
   local nsum = 0
   for k, v in pairs( plugins_names( )) do
@@ -49,8 +49,7 @@ end
 
 local function list_plugins(only_enabled)
   local text = ''
-  local nsum = 0
-  for k, v in pairs( plugins_names( )) do
+  local nsum = 0  for k, v in pairs( plugins_names( )) do
     --  ✔ enabled, ❌ disabled
     local status = '*[Inactive]>>*'
     nsum = nsum+1
@@ -68,7 +67,7 @@ local function list_plugins(only_enabled)
      -- text = text..v..'  '..status..'\n'
     end
   end
-  local text = text.."\n_All Plugins Reloaded_\n\n"..nact.." *Plugins Enabled*\n"..nsum.." *Plugins Installed*\n\n@permag"
+  local text = text.."\n_All Plugins Reloaded_\n\n"..nact.." *Plugins Enabled*\n"..nsum.." *Plugins Installed*\n\n@owner_teleseed"
 return text
 end
 
