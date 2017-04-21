@@ -1,8 +1,6 @@
-برای یادگیری و آموزش ساخت ربات ضد اسپم تلگرام  به سایت پرمگ مراجعه کنید 
-http://permag.ir
-
-کانال ما
-@permag_ir
-
-کانال ربات های ما 
-@permag_bots
+ساخت ربات ضداسپم
+api php
+pm resan
+باقیمت خیلی کم 
+ایدی @owner_teleseed
+#mamad_sudo
